@@ -1,0 +1,20 @@
+@media screen and (max-width:700px) {
+  header .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 8px 0;
+  }
+
+  .filme-principal .botao {
+    font-size: 12px;
+    width: 70%;
+    margin-top: 12px;
+  }
+
+  .form-contact textarea {
+    max-width: 90%;
+    display: block;
+    color: #000;
+  }
+}

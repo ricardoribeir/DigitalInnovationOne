@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style/responsive.css">
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/contato.css">
+
+  <title>Formulário de Contato</title>
+
+</head>
+<body>
+
+  <header>
+    <div class="container">
+        <h2 class="logo">LocaFlix Autos</h2>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="#">Carros</a>
+            <a href="#">Preço</a>
+        </nav>
+    </div>
+  </header>
+
+  <form name="contato">
+    
+    <div class="form-contact">
+      <h1>Entre em Contato</h1>
+      <p>Para mais informações</p>
+
+      <label for="name">Nome</label>
+      <input type="text" id="nameid" placeholder="nome" required="required" name="nome"> <br>
+      
+      <label for="fone">Fone</label>
+      <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone"> <br>
+      
+      <label for="email">Email</label>
+      <input type="email" id="emailid" placeholder="fulano@mail.com" name="email">
+      
+
+      <textarea placeholder="Sua dúvida"></textarea>
+
+      <input type="submit" class="enviar" onclick="Enviar();" value="Enviar">
+    </div>
+  </form>
+
+</body>
+</html>
