@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha página Jquery</title>
+
+  <link rel="stylesheet" type="text/css" href="./bootstrap-4.5.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-light bg-dark">
+    <a class="navbar-brand">Consulta CEP</a>
+    <div class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="CEP" id="cep">
+      <button class="btn btn-outline-success my-2 my-sm-0" onclick="consultaCep()">Buscar</button>
+    </div>
+  </nav>
+
+  <table class="table table-hover">
+    <div class="title">
+      <h2>CEP</h2>
+    </div>
+    
+    <tbody>
+      <tr>
+        <td>Endereço</td>
+        <td id="logradouro"></td>
+      </tr>
+
+      <tr>
+        <td>Bairro</td>
+        <td id="bairro"></td>
+      </tr>
+
+      <tr>
+        <td>Localidade</td>
+        <td id="localidade"></td>
+      </tr>
+
+      <tr>
+        <td>Localidade</td>
+        <td id="uf"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script type="text/javascript" src="./js/jQuery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
