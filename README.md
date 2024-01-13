@@ -7,4 +7,7 @@
 * Clone-NetFlix
 * Recriando o Jogo da Cobrinha
 * Introdução ao JQuery e Ajax
+* desafio - condicionais/variáveis
+* desafio - Calculadora de partidas Rankeadas
+* desafio - Criando as classes de um jogo
 
