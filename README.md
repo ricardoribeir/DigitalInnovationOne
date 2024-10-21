@@ -10,4 +10,5 @@
 * desafio - condicionais/variáveis
 * desafio - Calculadora de partidas Rankeadas
 * desafio - Criando as classes de um jogo
+* desafio Detona Ralph - html/css/js - Ri Happy
 
